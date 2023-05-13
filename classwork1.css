@@ -1,0 +1,35 @@
+.classleader {
+    display: grid;
+    background-color: blue;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 10px;
+    row-gap: 5px;
+    column-gap: 5px;
+    height: 200px;
+}
+
+.classshow {
+    background-color: white;
+    border: 2px solid  black;
+}
+
+.classshow:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.classshow:nth-child(2) {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.classshow:nth-child(3) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.classshow:nth-child(4) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
